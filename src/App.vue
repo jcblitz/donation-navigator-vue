@@ -18,6 +18,20 @@
       Campaign,
       Header,
       Footer
+    },
+    mounted() {
+      let jquery = document.createElement('script')
+      jquery.setAttribute('src', 'https://code.jquery.com/jquery-3.3.1.slim.min.js')
+      
+      let popper = document.createElement('script')
+      popper.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js')
+
+      let bootstrap = document.createElement('script')
+      bootstrap.setAttribute('src', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js')
+      
+      document.head.appendChild(jquery)
+      document.head.appendChild(popper)
+      document.head.appendChild(bootstrap)
     }
   }
 </script>
