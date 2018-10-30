@@ -12,7 +12,7 @@
             </div>
             <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                    <button type="button" @click="greet" class="btn btn-sm btn-outline-secondary">Support This</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Support This</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
                 <small class="text-muted">{{item.donors}} donors</small>
